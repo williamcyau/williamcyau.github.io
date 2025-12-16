@@ -24,7 +24,7 @@ linkedin_username: williamcyau # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
-osf_id: 0009-0007-8723-2005 # your OSF ID
+# osf_id: 0009-0007-8723-2005 # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
@@ -46,6 +46,6 @@ scholar_userid: pjuGgAgAAAAJ&hl # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://images-pw.pixieset.com/site/BA48j7/QLwj1E/IMG_0840-2-27c6e175-1500.jpg # can be png, svg, jpg
+  logo: assets/img/pixieset_logo.jpg # can be png, svg, jpg
   title: My photography portfolio
   url: https://wyauphoto.mypixieset.com/
