@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: 1st-year PhD student at <a href='https://engineering.purdue.edu/ChanGroup/stanleychan.html'>Chan Lab</a>. yau5 at purdue dot edu
+subtitle: 1st-year PhD student at <a href='https://engineering.purdue.edu/ChanGroup/stanleychan.html'>Chan Lab</a>. Email: yau5 at purdue dot edu
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>West Lafayette, IN</p>
