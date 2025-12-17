@@ -6,7 +6,7 @@ subtitle: 1st-year PhD student at <a href='https://engineering.purdue.edu/ChanGr
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: profile_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>West Lafayette, IN</p>
