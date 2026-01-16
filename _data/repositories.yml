@@ -1,9 +1,9 @@
-github_users:
-  - williamcyau  # your username
+# github_users:
+  # - williamcyau  # your username
 
 repo_description_lines_max: 4  # show more description
 
 github_repos:
-  - williamcyau/rcwa-overlay-metrology  # replace with actual repo names
-  - williamcyau/rcwa-surface-defect
-  - williamcyau/pwem-nanopillar
+  - williamcyau/overlay_metrology_sim  # replace with actual repo names
+  - williamcyau/RCWA_defect_sim
+  - williamcyau/PWEM_isolated_nanopillar
