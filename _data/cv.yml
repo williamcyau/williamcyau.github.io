@@ -42,6 +42,7 @@
   contents:
     - title: Graduate Researcher
       institution: Stanley Chan Lab @ Purdue ECE
+      url: https://drive.google.com/file/d/1JR9LQsf43WBqnfJBTNRLNJs4ByVffRHJ/view
       year: August 2025 - Present
       description:
         - Developing physics-aware, learning-based OPC framework to optimize masks with interpretable procedures.
@@ -52,6 +53,7 @@
 
     - title: Graduate Researcher
       institution: Qi Guo Lab @ Purdue ECE
+      url: https://docs.google.com/presentation/d/1MLWrFrLG3vr2SFuXrgFBE9iZ2EpMBAoU/edit?rtpof=true&sd=true
       year: August 2025 - Present
       description:
         - Developing all-optical framework for algorithm-metasurface co-design based on EM simulations of wafer stacks.
@@ -62,6 +64,7 @@
 
     - title: Research Assistant
       institution: Laura Waller Lab @ Berkeley Artificial Intelligence Research (BAIR)
+      url: https://drive.google.com/file/d/1S2I9kEtVRb1bY4-BFNa2Jnxfwz10jIAr/view?usp=sharing
       year: Aug 2024 - Aug 2025
       description:
         - Modeled aberration wavefront profiles with Zernike polynomials for imaging contrast/resolution analysis.
@@ -70,6 +73,7 @@
 
     - title: Research Fellow
       institution: Stanley Chan Lab @ Purdue ECE
+      url: https://ieeexplore.ieee.org/abstract/document/10743397
       year: May - July 2024
       description:
         - Developed signal-denoising and depth-estimation algorithms boosting SP-LiDAR depth accuracy 1000X.
@@ -85,18 +89,21 @@
   type: time_table
   contents:
     - title: RCWA-based Simulation of Overlay Metrology using OCD (Scatterometry)
+      url: https://github.com/williamcyau/overlay_metrology_sim
       year: Dec 2025
       description: |
         RCWA solver in Python/CUDA modeling scatterometry-based overlay metrology (ASML YieldStar-like).
         Distributed parameter sweeps on multi-GPU Linux clusters for configuration optimization.
 
     - title: RCWA-based Surface Defect Field Simulation
+      url: https://github.com/williamcyau/RCWA_defect_sim
       year: Dec 2025
       description: |
         GPU-accelerated RCWA solver generating image libraries for line/space patterning defects.
         Compared vs. FDTD; analysis scripts computing robustness and image quality metrics.
 
     - title: Plane Wave Expansion Method (PWEM)-based Isolated Nanopillar Field Sim.
+      url: https://github.com/williamcyau/PWEM_isolated_nanopillar
       year: Dec 2025
       description: |
         GPU-accelerated PWEM eigen-solver for arbitrarily shaped nanopillars.
@@ -107,13 +114,13 @@
   contents:
     - year: 2021-2025
       items:
-        - Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee (full-tuition UC Berkeley)
+        - '[Hong Kong Scholarship For Excellence Scheme (HKSES)](https://hkses.edb.gov.hk/en/awardees.html) Awardee (full-tuition UC Berkeley)''
     - year: Apr 2025
       items:
-        - Physics-inspired Neural Networks Seminar: Physics-inspired Neural Mapping for High-flux Single-photon LiDAR
+        - '[Physics-inspired Neural Networks Seminar](https://drive.google.com/file/d/1o--b861Y70iiLNVxhsowaD195OVda8qS/view?usp=sharing): Physics-inspired Neural Mapping for High-flux Single-photon LiDAR'
     - year: Oct 2024
       items:
-        - IEEE MMSP Conference: Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR
+        - '[IEEE MMSP Conference](ieeexplore.ieee.org/abstract/document/10743397): Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR'
 
 - title: Technical Skills
   type: nested_list
@@ -141,16 +148,19 @@
   type: time_table
   contents:
     - title: Editorial Photographer
+      url: https://wyauphoto.mypixieset.com/
       institution: Fashion and Student Trends @ Cal
       year: Aug 2024 - May 2025
       description: Shot and directed creative campaigns, including clients like Valentino Garavani.
 
     - title: Senior Photographer
+      url: https://www.dailycal.org/users/profile/william%20yau/
       institution: The Daily Californian
       year: Dec 2022 - May 2025
       description: Work frequently featured on website and printed copies' front page.
 
     - title: Tech & Operations Associate
+      url: https://connected.studentorg.berkeley.edu/
       institution: UC Berkeley ASUC
       year: Aug 2021 - May 2022
       description: Built AWS infrastructure and learning-based algorithms for Connect@Cal resource distribution.

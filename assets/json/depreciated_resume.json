@@ -45,6 +45,7 @@
       "name": "Stanley Chan Lab, Purdue ECE",
       "position": "Graduate Researcher",
       "startDate": "2025-08",
+      "url": "https://drive.google.com/file/d/1JR9LQsf43WBqnfJBTNRLNJs4ByVffRHJ/view",
       "highlights": [
         "Developing physics-aware, learning-based OPC framework to optimize masks with interpretable procedures.",
         "Training GPU-accelerated Fourier neural operator-based surrogate models of Hopkins imaging for generating extensive simulated datasets of mask/aerial/resist images, ensuring model robustness and generalizability.",
@@ -57,6 +58,7 @@
       "name": "Qi Guo Lab, Purdue ECE",
       "position": "Graduate Researcher",
       "startDate": "2025-08",
+      "url": "https://docs.google.com/presentation/d/1MLWrFrLG3vr2SFuXrgFBE9iZ2EpMBAoU/edit?rtpof=true&sd=true",
       "highlights": [
         "Developing an all-optical framework for algorithm-metasurface co-design based on rigorous EM simulations of wafer stacks to quantify sub-micron line/space surface defects with electron-microscopy-level precision.",
         "Achieved 5-10X improvement in pinpointing defect location and 1.3-3X higher defect-severity accuracy (<10 nm error) across large 3D patterned fields using end-to-end EM optimization.",
@@ -70,6 +72,7 @@
       "position": "Research Assistant",
       "startDate": "2024-08",
       "endDate": "2025-08",
+      "url": "https://drive.google.com/file/d/1S2I9kEtVRb1bY4-BFNa2Jnxfwz10jIAr/view?usp=sharing",
       "highlights": [
         "Modeled aberration wavefront profiles with Zernike polynomials to study their impact on imaging contrast and resolution in microscopy/astronomy systems, connecting with a proprietary information-theoretic, data-driven framework for holistic, generalizable object-aware optical system characterization.",
         "Built scalable Bayesian model pipelines with GPU acceleration for image acquisition modeling & validation.",
@@ -81,6 +84,7 @@
       "position": "Research Fellow",
       "startDate": "2024-05",
       "endDate": "2024-07",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10743397",
       "highlights": [
         "Developed signal-denoising and depth-estimation algorithms boosting single-photon LiDAR (SP-LiDAR) depth estimation accuracy 1000X and noise robustness 17X, enabling rapid, on-chip processing, addressing data storage limitations common for SP-LiDAR; Wrote unit tests and regression tests in C++/Python simulation modules to ensure numerical stability and performance."
       ]
@@ -98,16 +102,19 @@
   "projects": [
     {
       "name": "RCWA-based Simulation of Overlay Metrology using OCD (Scatterometry)",
+      "url": "https://github.com/williamcyau/overlay_metrology_sim",
       "endDate": "2025-12",
       "description": "RCWA solver in Python/CUDA to rigorously model a scatterometry-based overlay metrology setup akin to ASML YieldStar tools. Models coherent light from illumination, to scattering off nano-scale grating-over-grating structures, eventually to detection and infers misalignment. Scatterometric configuration (e.g. illumination angle, detection) optimization via distributed parameter sweeps on multi-GPU Linux clusters; post-measurement scripts analyzing accuracy and noise-robustness."
     },
     {
       "name": "RCWA-based Surface Defect Field Simulation",
+      "url": "https://github.com/williamcyau/RCWA_defect_sim",
       "endDate": "2025-12",
       "description": "GPU-accelerated RCWA solver in Python/CUDA to rigorously generate image libraries of resultant fields due to local defects (e.g., sidewall roughness & angle, CD non-uniformity) in line/space patterning. Compared speed-accuracy tradeoffs vs. FDTD; GPU-accelerated distributed parameter sweeps on multi-GPU Linux clusters; analysis scripts computing robustness, calibration, and image quality metrics."
     },
     {
       "name": "Plane Wave Expansion Method (PWEM)-based Isolated Nanopillar Field Sim.",
+      "url": "https://github.com/williamcyau/PWEM_isolated_nanopillar",
       "endDate": "2025-12",
       "description": "A GPU-accelerated PWEM eigen-solver in Python/CUDA to simulate resultant fields due to (arbitrarily shaped) isolated nanopillars. Automation scripts for parameter sweeps; results analysis; data preparation pipeline for ML-based surrogate modeling and data visualization."
     }
@@ -115,42 +122,45 @@
   "skills": [
     {
       "name": "Languages",
-      "keywords": ["Python", "C++", "C", "MATLAB", "Java", "Git"]
+      "items": ["Python", "C++", "C", "MATLAB", "Java", "Git"]
     },
     {
       "name": "Image Processing",
-      "keywords": ["OpenCV", "TorchVision", "GEOS", "Dlib", "Simd"]
+      "items": ["OpenCV", "TorchVision", "GEOS", "Dlib", "Simd"]
     },
     {
       "name": "Data/ML",
-      "keywords": ["PyTorch", "JAX", "TensorFlow", "Pandas", "NumPy", "SciPy"]
+      "items": ["PyTorch", "JAX", "TensorFlow", "Pandas", "NumPy", "SciPy"]
     },
     {
       "name": "HPC",
-      "keywords": ["CUDA", "MPI (Linux)", "Dask"]
+      "items": ["CUDA", "MPI (Linux)", "Dask"]
     },
     {
       "name": "EM Simulation",
-      "keywords": ["Meep", "Tidy3D", "JCMsuite", "TorchLitho", "OpenILT"]
+      "items": ["Meep", "Tidy3D", "JCMsuite", "TorchLitho", "OpenILT"]
     },
     {
       "name": "Ansys EDA",
-      "keywords": ["Lumerical", "Zemax", "Code V", "APDL"]
+      "items": ["Lumerical", "Zemax", "Code V", "APDL"]
     }
   ],
   "awards": [
     {
       "title": "Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee",
+      "url": "https://hkses.edb.gov.hk/en/awardees.html",
       "date": "2021-2025",
       "award": "Awarded full-tuition scholarship covering all four years at UC Berkeley."
     },
     {
       "title": "Physics-inspired Neural Networks Seminar",
+      "url": "https://drive.google.com/file/d/1o--b861Y70iiLNVxhsowaD195OVda8qS/view?usp=sharing",
       "date": "2025-04",
       "award": "Physics-inspired Neural Mapping for High-flux Single-photon LiDAR Simulation"
     },
     {
       "title": "IEEE Multimedia Signal Processing (MMSP) Conference",
+      "url": "ieeexplore.ieee.org/abstract/document/10743397",
       "date": "2024-10",
       "award": "Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR"
     }
@@ -161,6 +171,7 @@
       "position": "Editorial Photographer",
       "startDate": "2024-08",
       "endDate": "2025-05",
+      "url": "https://wyauphoto.mypixieset.com/",
       "highlights": [
         "Shot and directed creative campaigns, including clients like Valentino Garavani"
       ]
@@ -170,6 +181,7 @@
       "position": "Senior Photographer",
       "startDate": "2022-12",
       "endDate": "2025-05",
+      "url": "https://www.dailycal.org/users/profile/william%20yau/",
       "highlights": [
         "Work frequently featured on the Daily Cal’s website and printed copies’ front page."
       ]
@@ -179,6 +191,7 @@
       "position": "Tech & Operations Associate",
       "startDate": "2021-08",
       "endDate": "2022-05",
+      "url": "https://connected.studentorg.berkeley.edu/",
       "highlights": [
         "Built AWS infrastructure and learning-based algorithms for Connect@Cal, a student-led service that distributes community and academic resources."
       ]
