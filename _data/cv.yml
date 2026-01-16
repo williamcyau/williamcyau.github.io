@@ -1,97 +1,156 @@
+# _data/cv.yml following al-folio's exact nested format [file:229]
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: William (Chi Kin) Yau
+    - name: Email
+      value: yau5@purdue.edu
+    - name: Phone
+      value: (341) 766-9170
+    - name: Website
+      value: williamcyau.github.io
+    - name: LinkedIn
+      value: linkedin.com/in/williamcyau
+    - name: Location
+      value: West Lafayette, Indiana, US
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D in Electrical and Computer Engineering
+      institution: Purdue University
+      year: Aug 2025 - Present
+      gpa: 4.00/4.00
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Relevant courses: EUV & comp. lithography (Abbe/Hopkins, OPC/ILT, SMO, M3D)
+        - nanophotonics & metamaterials
 
-- title: Experience
+    - title: BA in Physics and Computer Science
+      institution: University of California, Berkeley
+      year: Aug 2021 - May 2025
+      gpa: 3.93/4.00
+      description:
+        - image processing & vision (C++)
+        - computational geometry, parallel computing (C, Linux)
+        - Laser & optoelectronics (Lumerical), Fourier optics (Zemax)
+        - physics-informed machine learning, data analytics
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Researcher
+      institution: Stanley Chan Lab @ Purdue ECE
+      year: August 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing physics-aware, learning-based OPC framework to optimize masks with interpretable procedures.
+        - Training GPU-accelerated Fourier neural operator-based surrogate models of Hopkins imaging for generating extensive simulated datasets of mask/aerial/resist images.
+        - Developing variational autoencoder (VAE)-based generative image encoding for aerial images with PyTorch.
+        - Deriving theoretical guarantees on optimization landscape properties (benign non-convexity).
+        - Benchmarking framework against OPC metrics (MEEF, NILS, PV band).
+
+    - title: Graduate Researcher
+      institution: Qi Guo Lab @ Purdue ECE
+      year: August 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Developing all-optical framework for algorithm-metasurface co-design based on EM simulations of wafer stacks.
+        - Achieved 5-10X improvement in defect location pinpointing and 1.3-3X higher defect-severity accuracy.
+        - Developed RCWA-based figure of merit for PyTorch-based co-optimization of scatterometric illumination/detection.
+        - Deployed GPU-accelerated FDTD-based EM solver for 3D volumetric fields around multilayer stacks.
+        - Implemented high-dimension parameter sweeps across multi-GPU clusters with MPI parallelization.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant
+      institution: Laura Waller Lab @ Berkeley Artificial Intelligence Research (BAIR)
+      year: Aug 2024 - Aug 2025
       description:
+        - Modeled aberration wavefront profiles with Zernike polynomials for imaging contrast/resolution analysis.
+        - Built scalable Bayesian model pipelines with GPU acceleration for image acquisition modeling.
+        - Integrated JAX-TensorFlow-PyTorch modules for differentiable inverse design pipelines (+25-30% accuracy).
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Fellow
+      institution: Stanley Chan Lab @ Purdue ECE
+      year: May - July 2024
+      description:
+        - Developed signal-denoising and depth-estimation algorithms boosting SP-LiDAR depth accuracy 1000X.
+        - Wrote unit tests and regression tests in C++/Python simulation modules.
 
-- title: Open Source Projects
+    - title: Research Assistant
+      institution: Ivan Vasko Group @ UC Berkeley Space Sciences Lab (SSL)
+      year: Aug 2022 - Aug 2023
+      description:
+        - Developed scalable Python/Pandas-based data pipeline & dashboard processing 1M+ NASA THEMIS plasma datapoints.
+
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: RCWA-based Simulation of Overlay Metrology using OCD (Scatterometry)
+      year: Dec 2025
+      description: |
+        RCWA solver in Python/CUDA modeling scatterometry-based overlay metrology (ASML YieldStar-like).
+        Distributed parameter sweeps on multi-GPU Linux clusters for configuration optimization.
+
+    - title: RCWA-based Surface Defect Field Simulation
+      year: Dec 2025
+      description: |
+        GPU-accelerated RCWA solver generating image libraries for line/space patterning defects.
+        Compared vs. FDTD; analysis scripts computing robustness and image quality metrics.
+
+    - title: Plane Wave Expansion Method (PWEM)-based Isolated Nanopillar Field Sim.
+      year: Dec 2025
+      description: |
+        GPU-accelerated PWEM eigen-solver for arbitrarily shaped nanopillars.
+        Parameter sweeps and data preparation pipeline for ML-based surrogate modeling.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021-2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee (full-tuition UC Berkeley)
+    - year: Apr 2025
       items:
-        - Max Planck Medal
+        - Physics-inspired Neural Networks Seminar: Physics-inspired Neural Mapping for High-flux Single-photon LiDAR
+    - year: Oct 2024
+      items:
+        - IEEE MMSP Conference: Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C++, C, MATLAB, Java, Git
+    - title: Image Processing
       items:
-        - Description 1.
-        - Description 2.
+        - OpenCV, TorchVision, GEOS, Dlib, Simd
+    - title: Data/ML
+      items:
+        - PyTorch, JAX, TensorFlow, Pandas, NumPy, SciPy
+    - title: HPC
+      items:
+        - CUDA, MPI (Linux), Dask
+    - title: EM Simulation
+      items:
+        - Meep, Tidy3D, JCMsuite, TorchLitho, OpenILT
+    - title: Ansys EDA
+      items:
+        - Lumerical, Zemax, Code V, APDL
 
-- title: Other Interests
-  type: list
+- title: Volunteering/Community Work
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Editorial Photographer
+      institution: Fashion and Student Trends @ Cal
+      year: Aug 2024 - May 2025
+      description: Shot and directed creative campaigns, including clients like Valentino Garavani.
+
+    - title: Senior Photographer
+      institution: The Daily Californian
+      year: Dec 2022 - May 2025
+      description: Work frequently featured on website and printed copies' front page.
+
+    - title: Tech & Operations Associate
+      institution: UC Berkeley ASUC
+      year: Aug 2021 - May 2022
+      description: Built AWS infrastructure and learning-based algorithms for Connect@Cal resource distribution.

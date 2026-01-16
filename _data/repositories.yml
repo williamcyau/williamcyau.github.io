@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - williamcyau  # your username
 
-repo_description_lines_max: 2
+repo_description_lines_max: 4  # show more description
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - williamcyau/rcwa-overlay-metrology  # replace with actual repo names
+  - williamcyau/rcwa-surface-defect
+  - williamcyau/pwem-nanopillar
