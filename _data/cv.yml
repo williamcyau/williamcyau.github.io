@@ -29,7 +29,7 @@
 
     - title: BA in Physics and Computer Science
       institution: University of California, Berkeley
-      year: Aug 2021 - May 2025
+      year: 2021 - 2025
       maindescription: GPA 3.93/4.00
       description:
         - image processing & vision (C++), computational geometry
@@ -160,17 +160,17 @@
     - title: Editorial Photographer
       url: https://wyauphoto.mypixieset.com/
       institution: Fashion and Student Trends @ Cal
-      year: Aug 2024 - May 2025
-      description: Shot and directed creative campaigns, including clients like Valentino Garavani.
+      year: 2024 - 2025
+      maindescription: Shot and directed creative campaigns, including clients like Valentino Garavani.
 
     - title: Senior Photographer
       url: https://www.dailycal.org/users/profile/william%20yau/
       institution: The Daily Californian
-      year: Dec 2022 - May 2025
-      description: Work frequently featured on website and printed copies' front page.
+      year: 2022 - 2025
+      maindescription: Work frequently featured on website and printed copies' front page.
 
     - title: Tech & Operations Associate
       url: https://connected.studentorg.berkeley.edu/
       institution: UC Berkeley ASUC
-      year: Aug 2021 - May 2022
-      description: Built AWS infrastructure and learning-based algorithms for Connect@Cal resource distribution.
+      year: 2021 - 2022
+      maindescription: Built AWS infrastructure and learning-based algorithms for Connect@Cal resource distribution.
