@@ -24,7 +24,7 @@
       year: Aug 2025 - Present
       gpa: 4.00/4.00
       description:
-        - Relevant courses: EUV & comp. lithography (Abbe/Hopkins, OPC/ILT, SMO, M3D)
+        - EUV & comp. lithography (Abbe/Hopkins, OPC/ILT, SMO, M3D)
         - nanophotonics & metamaterials
 
     - title: BA in Physics and Computer Science
@@ -32,16 +32,17 @@
       year: Aug 2021 - May 2025
       gpa: 3.93/4.00
       description:
-        - image processing & vision (C++)
-        - computational geometry, parallel computing (C, Linux)
-        - Laser & optoelectronics (Lumerical), Fourier optics (Zemax)
+        - image processing & vision (C++), computational geometry
+        - parallel computing (C, Linux)
+        - laser & optoelectronics (Lumerical), Fourier optics (Zemax)
         - physics-informed machine learning, data analytics
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Graduate Researcher
-      institution: Stanley Chan Lab @ Purdue ECE
+      department: Stanley Chan Lab
+      institution: Purdue ECE
       url: https://drive.google.com/file/d/1JR9LQsf43WBqnfJBTNRLNJs4ByVffRHJ/view
       year: August 2025 - Present
       description:
@@ -52,7 +53,8 @@
         - Benchmarking framework against OPC metrics (MEEF, NILS, PV band).
 
     - title: Graduate Researcher
-      institution: Qi Guo Lab @ Purdue ECE
+      department: Qi Guo Lab
+      institution: Purdue ECE
       url: https://docs.google.com/presentation/d/1MLWrFrLG3vr2SFuXrgFBE9iZ2EpMBAoU/edit?rtpof=true&sd=true
       year: August 2025 - Present
       description:
@@ -63,7 +65,8 @@
         - Implemented high-dimension parameter sweeps across multi-GPU clusters with MPI parallelization.
 
     - title: Research Assistant
-      institution: Laura Waller Lab @ Berkeley Artificial Intelligence Research (BAIR)
+      department: Laura Waller Lab
+      institution: Berkeley Artificial Intelligence Research (BAIR)
       url: https://drive.google.com/file/d/1S2I9kEtVRb1bY4-BFNa2Jnxfwz10jIAr/view?usp=sharing
       year: Aug 2024 - Aug 2025
       description:
@@ -72,7 +75,8 @@
         - Integrated JAX-TensorFlow-PyTorch modules for differentiable inverse design pipelines (+25-30% accuracy).
 
     - title: Research Fellow
-      institution: Stanley Chan Lab @ Purdue ECE
+      department: Stanley Chan Lab
+      institution: Purdue ECE
       url: https://ieeexplore.ieee.org/abstract/document/10743397
       year: May - July 2024
       description:
@@ -80,7 +84,8 @@
         - Wrote unit tests and regression tests in C++/Python simulation modules.
 
     - title: Research Assistant
-      institution: Ivan Vasko Group @ UC Berkeley Space Sciences Lab (SSL)
+      department: Ivan Vasko Group
+      institution: UC Berkeley Space Sciences Lab (SSL)
       year: Aug 2022 - Aug 2023
       description:
         - Developed scalable Python/Pandas-based data pipeline & dashboard processing 1M+ NASA THEMIS plasma datapoints.
