@@ -45,8 +45,8 @@
       institution: Purdue ECE
       url: https://drive.google.com/file/d/1JR9LQsf43WBqnfJBTNRLNJs4ByVffRHJ/view
       year: August 2025 - Present
+      maindescription: Developing physics-aware, learning-based OPC framework to optimize masks with interpretable procedures.
       description:
-        - Developing physics-aware, learning-based OPC framework to optimize masks with interpretable procedures.
         - Training GPU-accelerated Fourier neural operator-based surrogate models of Hopkins imaging for generating extensive simulated datasets of mask/aerial/resist images.
         - Developing variational autoencoder (VAE)-based generative image encoding for aerial images with PyTorch.
         - Deriving theoretical guarantees on optimization landscape properties (benign non-convexity).
