@@ -109,19 +109,25 @@
         GPU-accelerated PWEM eigen-solver for arbitrarily shaped nanopillars.
         Parameter sweeps and data preparation pipeline for ML-based surrogate modeling.
 
-- title: Honors and Awards
+- title: Awards and Presentations
   type: time_table
   contents:
-    - year: 2021-2025
-      items:
-        - '[Hong Kong Scholarship For Excellence Scheme (HKSES)](https://hkses.edb.gov.hk/en/awardees.html) Awardee (full-tuition UC Berkeley)''
-    - year: Apr 2025
-      items:
-        - '[Physics-inspired Neural Networks Seminar](https://drive.google.com/file/d/1o--b861Y70iiLNVxhsowaD195OVda8qS/view?usp=sharing): Physics-inspired Neural Mapping for High-flux Single-photon LiDAR'
-    - year: Oct 2024
-      items:
-        - '[IEEE MMSP Conference](ieeexplore.ieee.org/abstract/document/10743397): Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR'
-
+    - title: Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee
+      url: https://hkses.edb.gov.hk/en/awardees.html
+      year: 2021-2025
+      description: |
+        Four years of full-tuition at UC Berkeley.
+    - title: Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee
+      url: https://hkses.edb.gov.hk/en/awardees.html
+      year: Apr 2025
+      description: |
+        Physics-inspired Neural Mapping for High-flux Single-photon LiDAR
+    - title: IEEE MMSP Conference
+      url: https://ieeexplore.ieee.org/abstract/document/10743397
+      year: Oct 2024
+      description: |
+        Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR
+    
 - title: Technical Skills
   type: nested_list
   contents:
