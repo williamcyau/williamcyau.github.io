@@ -21,8 +21,8 @@
   contents:
     - title: Ph.D in Electrical and Computer Engineering
       institution: Purdue University
-      year: Aug 2025 - Present
-      gpa: 4.00/4.00
+      year: Aug 2025 - Now
+      maindescription: GPA 4.00/4.00
       description:
         - EUV & comp. lithography (Abbe/Hopkins, OPC/ILT, SMO, M3D)
         - nanophotonics & metamaterials
@@ -30,7 +30,7 @@
     - title: BA in Physics and Computer Science
       institution: University of California, Berkeley
       year: Aug 2021 - May 2025
-      gpa: 3.93/4.00
+      maindescription: GPA 3.93/4.00
       description:
         - image processing & vision (C++), computational geometry
         - parallel computing (C, Linux)
@@ -44,51 +44,50 @@
       department: Stanley Chan Lab
       institution: Purdue ECE
       url: https://drive.google.com/file/d/1JR9LQsf43WBqnfJBTNRLNJs4ByVffRHJ/view
-      year: August 2025 - Present
+      year: Aug 2025 - Now
       maindescription: Developing physics-aware, learning-based OPC framework to optimize masks with interpretable procedures.
       description:
-        - Training GPU-accelerated Fourier neural operator-based surrogate models of Hopkins imaging for generating extensive simulated datasets of mask/aerial/resist images.
-        - Developing variational autoencoder (VAE)-based generative image encoding for aerial images with PyTorch.
-        - Deriving theoretical guarantees on optimization landscape properties (benign non-convexity).
-        - Benchmarking framework against OPC metrics (MEEF, NILS, PV band).
+        - Training GPU-accelerated Fourier neural operator-based surrogate models of Hopkins imaging for generating extensive simulated datasets of mask/aerial/resist images, ensuring model robustness and generalizability.
+        - Developing variational autoencoder (VAE)-based generative image encoding for aerial images with PyTorch, improving gradient-based optimization landscape, offering well-posed solutions and algorithmic interpretability.
+        - Deriving theoretical guarantees on optimization landscape properties (benign non-convexity), ensuring convergence speedups and mathematical implications on illumination design and SMO.
+        - Benchmarking framework against OPC metrics (MEEF, NILS, PV band) to provide interpretable knobs for imaging product engineers and customers.
 
     - title: Graduate Researcher
       department: Qi Guo Lab
       institution: Purdue ECE
       url: https://docs.google.com/presentation/d/1MLWrFrLG3vr2SFuXrgFBE9iZ2EpMBAoU/edit?rtpof=true&sd=true
-      year: August 2025 - Present
+      year: Aug 2025 - Now
+      maindescription: Developing an all-optical framework for algorithm-metasurface co-design based on EM simulations of wafer stacks to quantify sub-micron line/space surface defects with electron-microscopy-level precision.
       description:
-        - Developing all-optical framework for algorithm-metasurface co-design based on EM simulations of wafer stacks.
-        - Achieved 5-10X improvement in defect location pinpointing and 1.3-3X higher defect-severity accuracy.
-        - Developed RCWA-based figure of merit for PyTorch-based co-optimization of scatterometric illumination/detection.
-        - Deployed GPU-accelerated FDTD-based EM solver for 3D volumetric fields around multilayer stacks.
-        - Implemented high-dimension parameter sweeps across multi-GPU clusters with MPI parallelization.
+        - Achieved 5-10X improvement in defect location pinpointing and 1.3-3X higher defect-severity accuracy (<10 nm error) across large 3D patterned fields using end-to-end EM optimization.
+        - Developed RCWA-based figure of merit for PyTorch-based co-optimization of scatterometric illumination/detection and metasurface design parameters, ensuring optimal imaging accuracy and noise-robustness.
+        - Deployed GPU-accelerated FDTD-based EM solver for 3D volumetric fields around multilayer stacks with diverse realistic defects (CD non-uniformity, sidewall roughness) for generalizable data-driven imaging.
+        - Implemented high-dimension parameter sweeps over defect configurations (CD, sidewall, height) across multi-GPU clusters, leveraging automated job scheduling, MPI parallelization, and GPU-direct data pipelines in Python/CUDA for 10X faster EM simulation throughput on realistic wafer geometries.
 
     - title: Research Assistant
       department: Laura Waller Lab
       institution: Berkeley Artificial Intelligence Research (BAIR)
       url: https://drive.google.com/file/d/1S2I9kEtVRb1bY4-BFNa2Jnxfwz10jIAr/view?usp=sharing
-      year: Aug 2024 - Aug 2025
+      year: Aug 2024 - 2025
+      maindescription: Modeled aberration wavefront profiles with Zernike polynomials to study their impact on imaging contrast and resolution in microscopy/astronomy systems, connecting with a proprietary information-theoretic, data-driven framework for holistic, generalizable object-aware optical system characterization.
       description:
-        - Modeled aberration wavefront profiles with Zernike polynomials for imaging contrast/resolution analysis.
-        - Built scalable Bayesian model pipelines with GPU acceleration for image acquisition modeling.
-        - Integrated JAX-TensorFlow-PyTorch modules for differentiable inverse design pipelines (+25-30% accuracy).
+        - Built scalable Bayesian model pipelines with GPU acceleration for image acquisition modeling & validation.
+        - Integrated JAX-TensorFlow-PyTorch modules for differentiable inverse design pipelines for diffractive optical elements (akin to lens/illumination design optimization), improving accuracy 25-30%.
 
     - title: Research Fellow
       department: Stanley Chan Lab
       institution: Purdue ECE
       url: https://ieeexplore.ieee.org/abstract/document/10743397
-      year: May - July 2024
+      year: May - Jul 2024
+      maindescription: Developed signal-denoising and depth-estimation algorithms boosting SP-LiDAR depth accuracy 1000X. Developed signal-denoising and depth-estimation algorithms boosting single-photon LiDAR (SP-LiDAR) depth estimation accuracy 1000X and noise robustness 17X, enabling rapid, on-chip processing, addressing data storage limitations common for SP-LiDAR; Wrote unit tests and regression tests in C++/Python simulation modules to ensure numerical stability and performance.
       description:
-        - Developed signal-denoising and depth-estimation algorithms boosting SP-LiDAR depth accuracy 1000X.
         - Wrote unit tests and regression tests in C++/Python simulation modules.
 
     - title: Research Assistant
       department: Ivan Vasko Group
       institution: UC Berkeley Space Sciences Lab (SSL)
-      year: Aug 2022 - Aug 2023
-      description:
-        - Developed scalable Python/Pandas-based data pipeline & dashboard processing 1M+ NASA THEMIS plasma datapoints.
+      year: Aug 2022 - 2023
+      maindescription: Developed scalable Python/Pandas-based data pipeline & dashboard processing 1M+ plasma dynamics datapoints from NASA THEMIS, enabling high-throughput analytics and performance monitoring.
 
 - title: Projects
   type: time_table
@@ -96,21 +95,21 @@
     - title: RCWA-based Simulation of Overlay Metrology using OCD (Scatterometry)
       url: https://github.com/williamcyau/overlay_metrology_sim
       year: Dec 2025
-      description: |
+      maindescription: |
         RCWA solver in Python/CUDA modeling scatterometry-based overlay metrology (ASML YieldStar-like).
         Distributed parameter sweeps on multi-GPU Linux clusters for configuration optimization.
 
     - title: RCWA-based Surface Defect Field Simulation
       url: https://github.com/williamcyau/RCWA_defect_sim
       year: Dec 2025
-      description: |
+      maindescription: |
         GPU-accelerated RCWA solver generating image libraries for line/space patterning defects.
         Compared vs. FDTD; analysis scripts computing robustness and image quality metrics.
 
     - title: Plane Wave Expansion Method (PWEM)-based Isolated Nanopillar Field Sim.
       url: https://github.com/williamcyau/PWEM_isolated_nanopillar
       year: Dec 2025
-      description: |
+      maindescription: |
         GPU-accelerated PWEM eigen-solver for arbitrarily shaped nanopillars.
         Parameter sweeps and data preparation pipeline for ML-based surrogate modeling.
 
@@ -120,17 +119,17 @@
     - title: Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee
       url: https://hkses.edb.gov.hk/en/awardees.html
       year: 2021-2025
-      description: |
+      maindescription: |
         Four years of full-tuition at UC Berkeley.
     - title: Hong Kong Scholarship For Excellence Scheme (HKSES) Awardee
       url: https://hkses.edb.gov.hk/en/awardees.html
       year: Apr 2025
-      description: |
+      maindescription: |
         Physics-inspired Neural Mapping for High-flux Single-photon LiDAR
     - title: IEEE MMSP Conference
       url: https://ieeexplore.ieee.org/abstract/document/10743397
       year: Oct 2024
-      description: |
+      maindescription: |
         Analysis and Improvement of Rank-Ordered Mean Algorithm in Single-Photon LiDAR
     
 - title: Technical Skills
